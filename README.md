@@ -4,9 +4,9 @@
 (换课请联系教务进行换课 小心截胡）
 
 
-第一版是用chromedriver登陆 用requests选课
+第一版是用Selenium登陆 用requests选课
 
-第二版xuanke1.py参考了北航教务一键评教版本将登陆部分更新 不再需要chromedriver 更方便使用
+第二版xuanke1.py参考了北航教务一键评教版本将登陆部分更新 不再需要Selenium 仅使用requests 更方便使用
 
 `username`和`password`即账号和密码
 
