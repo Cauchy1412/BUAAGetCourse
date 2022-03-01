@@ -6,7 +6,7 @@
 
 第一版grabcourse.py是用Selenium登陆 用requests选课
 
-第二版xuanke1.py参考了北航教务一键评教版本将登陆部分更新 不再需要Selenium 仅使用requests 更方便使用
+第二版xuanke.py参考了北航教务一键评教版本将登陆部分更新 不再需要Selenium 仅使用requests 更方便使用
 
 `username`和`password`即账号和密码
 
@@ -18,4 +18,4 @@
 
 **grabcourse.py在2021年秋季学期测试过可正常使用**
 
-**xuanke1.py在2022年春季学期测试过可正常使用**
+**xuanke.py在2022年春季学期测试过可正常使用**
