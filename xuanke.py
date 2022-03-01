@@ -6,8 +6,8 @@ import time
 import re
 
 
-username = ''                    #帐号
-password = ''                  #密码
+username = ''                           #帐号
+password = ''                           #密码
 type = '一般专业'                        #选课类型（一般专业课 核心专业课 核心通识课 一般专业课）
 typeDict = {'一般专业':('xslbxk','ZYL','xslbxk'), '核心专业':('xslbxk', 'ZYL', 'xslbxk'), '核心通识':('xsxk','TSL','tsk'),'一般通识':('xsxk','TSL','qxrx')}
 var1,var2,var3 = typeDict[type]
