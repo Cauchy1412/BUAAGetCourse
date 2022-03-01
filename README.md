@@ -6,7 +6,7 @@
 
 第一版grabcourse.py是用Selenium登陆 用requests选课
 
-第二版xuanke.py参考了北航教务一键评教版本将登陆部分更新 不再需要Selenium 仅使用requests 更方便使用
+第二版xuanke.py参考了[北航教务一键评教版本](https://github.com/bearbattle/buaa-teacher-evaluation)将登陆部分更新 不再需要Selenium 仅使用requests 更方便使用
 
 `username`和`password`即账号和密码
 
