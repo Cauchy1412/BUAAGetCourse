@@ -76,7 +76,7 @@ def chose():
     payload['pageKkxiaoqu'] = ''
     payload['pageKkyx'] = ''
     payload['pageKcmc'] = ''
-    payload['pageXklb'] = var3  # 一般通识qxrx，核心通识tsk，一般专业需要改为xslbxk
+    payload['pageXklb'] = var3  
     payload['rwh'] = rwh
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
