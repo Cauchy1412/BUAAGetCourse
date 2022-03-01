@@ -78,11 +78,6 @@ def chose():
     payload['pageKcmc'] = ''
     payload['pageXklb'] = var3  
     payload['rwh'] = rwh
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36',
-        'Connection': 'keep-alive',
-        'Cache-Control': 'max-age=0',
-    }
     response = session.post('http://jwxt.buaa.edu.cn:8080/ieas2.1/' + var1 + '/saveXsxk',data=payload)
     if "选课成功" in response.text:
         print("选课成功")
