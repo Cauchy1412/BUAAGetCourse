@@ -1,6 +1,8 @@
 # BUAAGetCourse
 用来蹲北航教务给课程扩容的名额，解放双手双眼
 
+(换课请联系教务进行换课 小心截胡）
+
 
 第一版是用chromedriver登陆 用requests选课
 
