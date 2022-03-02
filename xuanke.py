@@ -46,7 +46,7 @@ def _get_hidden_items(text):
     return {item[1]: item[2] for item in items}
 
 
-def chose():
+def choose():
     session = requests.Session()
     login(username, password, session)
     list_url = 'http://jwxt.buaa.edu.cn:8080/ieas2.1/xslbxk/queryXsxkList?pageXkmkdm=' + var2
@@ -71,5 +71,5 @@ def chose():
 
 
 while True:
-    chose()
+    choose()
     time.sleep(1)
